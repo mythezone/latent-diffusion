@@ -1,0 +1,7 @@
+.venv
+models/*
+latent_diffusion.egg*
+
+# python
+__pycache__
+*.py[cod]

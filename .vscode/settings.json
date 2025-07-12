@@ -1,0 +1,40 @@
+{
+    "python.defaultInterpreterPath": "/home/zhongmuyao/project/picture/latent-diffusion/.venv/bin/python",
+    "jupyter.notebookFileRoot": "/home/zhongmuyao/project/picture/latent-diffusion",
+    "python.analysis.extraPaths": [
+        "/home/zhongmuyao/project/picture/latent-diffusion"
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.autoSearchPaths": true,
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "/home/zhongmuyao/project/picture/latent-diffusion"
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "plantuml.includepaths": [
+        "agent",
+        "realism"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "paper/tmp": true,
+        "paper/tmp/*": true,
+        ".cached*": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        ".gradio": true,
+        ".pytest_cache": true,
+        ".venv": true,
+        "database/redis_data": true,
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
